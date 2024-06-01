@@ -17,8 +17,8 @@ ML Models trained:
 - Adaboost Regressor
 
 Steps:
-DataIngestion : Read the data and split it into training and test data
-DataTransformation : Handle missing data. Apply One hot encoding and normalize the values.
-ModelTraining: Initialize various models. Train them using the train data and return the best_model.
-TestPipeline: Get the new data entered by user and predict the math_score based on that using the best_model.
+- DataIngestion : Read the data and split it into training and test data
+- DataTransformation : Handle missing data. Apply One hot encoding and normalize the values.
+- ModelTraining: Initialize various models. Train them using the train data and return the best_model.
+- TestPipeline: Get the new data entered by user and predict the math_score based on that using the best_model.
 
